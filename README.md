@@ -16,51 +16,56 @@
 </details>
 
 <details>
-<summary>Left Click</summary>
-<
- <figcaption>Gesture for single left click</figcaption>
+<summary>Left Index finger up gesture</summary>
+
+ <figcaption>Maintaining the peace gesture, and then putting the middle finger down and bringing it back up mimics the right click operation.
+</figcaption>
 </details>
 
 <details>
-<summary>Right Click</summary>
+<summary>Middle finger up gesture</summary>
 
- <figcaption>Gesture for single right click</figcaption>
+ <figcaption>Maintaining the peace gesture, and then putting the index finger down and bringing it back up mimics the left click operation.
+</figcaption>
 </details>
 
 <details>
 <summary>Double Click</summary>
-<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/double%20click.gif" alt="Double Click" width="711" height="400"><br>
- <figcaption>Gesture for double click</figcaption>
+
+ <figcaption>Making the peace sign, joining the index and middle fingers and releasing them would perform double click.</figcaption>
 </details>
 
 <details>
-<summary>Scrolling</summary>
+<summary>Right hand pinch gesture</summary>
 
- <figcaption>Dynamic Gestures for horizontal and vertical scroll. The speed of scroll is proportional to the distance moved by pinch gesture from start point. Vertical and Horizontal scrolls are controlled by vertical and horizontal pinch movements respectively.</figcaption>
+ <figcaption>This gesture made by joining the tips of the index finger and thumb of the right hand is used to perform the scrolling function. Both horizontal and vertical scrolling has been enabled in this implementation.</figcaption>
 </details>
 
 <details>
 <summary>Drag and Drop</summary>
 
- <figcaption>Gesture for drag and drop functionality. Can be used to move/tranfer files from one directory to other.</figcaption>
+ <figcaption>Making the peace sign and curling the fingers at the starting location would pick the file. Releasing the fingers at the desired end location would drop the file there.  
+</figcaption>
 </details>
 
 <details>
-<summary>Multiple Item Selection</summary>
+<summary>Closed Fist gesture</summary>
 
- <figcaption>Gesture to select multiple items</figcaption>
+ <figcaption>Moving a closed fist across a set of items would perform multi-item selection of those items.
+</figcaption>
 </details>
 
 <details>
-<summary>Volume Control</summary>
+<summary>Left hand Pinch Gesture - Audio </summary>
 
- <figcaption>Dynamic Gestures for Volume control. The rate of increase/decrease of volume is proportional to the distance moved by pinch gesture from start point. </figcaption>
+ <figcaption>Making the pinch gesture with the left hand and moving it up or down vertically would increase or decrease the system volume. 
+</figcaption>
 </details>
 
 <details>
-<summary>Brightness Control</summary>
+<summary>Left hand Pinch Gesture - Brightness </summary>
 
- <figcaption>Dynamic Gestures for Brightness control. The rate of increase/decrease of brightness is proportional to the distance moved by pinch gesture from start point. </figcaption>
+ <figcaption>Making the pinch gesture with the left hand and moving it left or right horizontally would increase or decrease the system brightness. </figcaption>
 </details>
 
 ### Voice Assistant ( ***Siri*** ):
@@ -69,104 +74,84 @@
 
 <ul>
   <li>
-    <code> Proton Launch Gesture Recognition </code><br>
+    <code> Siri Launch Gesture Recognition </code><br>
     Turns on webcam for hand gesture recognition.
   </li>
   <li>
-    <code> Proton Stop Gesture Recognition </code><br>
+    <code> Siri Stop Gesture Recognition </code><br>
     Turns off webcam and stops gesture recognition.
-    (Termination of Gesture controller can also be done via pressing <code>Enter</code> key in webcam window)
+    (Termination of Leap Motion Module can also be done via pressing <code>Enter</code> key in webcam window)
    </li>
 </ul>
 </details>
 
 <details>
 <summary>Google Search</summary>
-<img src="https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20search.png" alt="proton search github" width="800" height="auto">
 <ul>
   <li>
-    <code>Proton search {text_you_wish_to_search}</code><br>
-    Opens a new tab on Chrome Browser if it is running, else opens a new window. Searches the given text on Google.
+    <code>Siri search {text_you_wish_to_search}</code><br>
+    Opens a new tab on Firefox/ Chrome Browser if it is running, else opens a new window. Searches the given text on Google.
   </li>
 </ul>
 </details>
 
 <details>
 <summary>Find a Location on Google Maps</summary>
- <img src="https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20find%20location.png" alt="proton find location" width="800" height="auto">
   <ol>
     <li> 
-      <code>Proton Find a Location</code><br>
-      Will ask the user for the location to be searched.
+      <code>Siri Find a Location</code><br>
+      Asks for the location to be searched.
     </li>
     <li> 
       <code>{Location_you_wish_to_find}</code><br>
-      Will find the required location on Google Maps in a new Chrome tab.
+      Finds the required location on Google Maps in a new Firefox/ Chrome tab.
     </li>
   </ol>
 </details>
 
 <details>
 <summary>File Navigation</summary>
-<img src="https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20list%20files.png" alt="proton list files" width="250" height="auto">&emsp;
- <img src="https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20open.png" alt="proton open" width="250" height="auto">&emsp;
- <img src="https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20go%20back.png" alt="proton go back" width="250" height="auto">
+
   <ul>
     <li>
-      <code>Proton list files</code> / <code> Proton list </code><br>
+      <code>Siri list files</code> / <code> Siri list </code><br>
       Will list the files and respective file_numbers in your Current Directory (by default C:)
     </li>
     <li>  
-      <code> Proton open {file_number} </code><br>
+      <code> Siri open {file_number} </code><br>
       Opens the file / directory corresponding to specified file_number.
     </li>
     <li>
-      <code>Proton go back </code> / <code> Proton back </code><br>
-      Changes the Current Directory to Parent Directory and lists the files.
+      <code>Siri go back </code> / <code> Siri back </code><br>
+      Goes back to Parent Directory and lists the files.
     </li>
   </ul>
 </details>
 
 <details>
 <summary>Current Date and Time</summary>
-<img src="https://github.com/xenon-19/Gesture_Controller/blob/d49c868acc41ac6c89489bfd80e5e5015a8cb571/demo_media/voice%20commands/proton%20date%20time.png" alt="proton date / time" width="250" height="auto">
   <ul>
     <li>
-      <code> Proton what is today's date </code> / <code> Proton date </code><br>
-      <code> Proton what is the time </code> / <code> Proton time </code><br>
+      <code>Siri date </code><br>
+      <code> Siri time </code><br>
       Returns the current date and time.
     </li>
   </ul>
 </details>
 
-<details>
-<summary>Copy and Paste</summary>
- <img src="https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20copy.png" alt="proton copy" width="500" height="auto">
- <img src="https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20paste.png" alt="proton paste" width="500" height="auto">
-  <ul>
-    <li>
-      <code> Proton Copy </code><br>
-      Copies the selected text to clipboard.<br>
-    </li>
-    <li>
-      <code> Proton Paste </code><br>
-      Pastes the copied text.
-    </li>
-  </ul>
-</details>
 
 <details>
-<summary>Sleep / Wake up Proton</summary>
-  <img src="https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20bye%20wake%20up.png" alt="proton sleep / wake up" width="250" height="auto">
+<summary>Sleep / Wake up Siri</summary>
+
   <ul>
     <li>
       Sleep<br>
-      <code> Proton bye </code><br>
+      <code> Siri bye </code><br>
       Pauses voice command execution till the assistant is woken up.
     </li>
     <li>
       Wake up<br>
-      <code> Proton wake up </code><br>
+      <code> Siri wake up </code><br>
       Resumes voice command execution.
     </li>
   </ul>
@@ -174,11 +159,55 @@
 
 <details>
 <summary>Exit</summary>
-   <img src="https://github.com/xenon-19/Gesture_Controller/blob/4041eedc2f75fa2923902000b606a05a677629e8/demo_media/voice%20commands/proton%20exit.png" alt="proton exit" width="250" height="auto">
   <ul>
-    <li>
-      <code> Proton Exit </code> <br>
-      Terminates the voice assisstant thread. GUI window needs to be closed manually.
+      <li>
+      <code> Siri Exit </code> <br>
+      Terminates the voice assistant thread. 
     </li>
   </ul>
 </details>
+
+
+
+# Getting Started
+  
+  Step 1: 
+  ```bash
+  conda create --name gest python=3.8.5
+  ```
+  
+  Step 2:
+  ```bash
+  conda activate gest
+  ```
+  
+  Step 3:
+  ```bash
+  pip install -r requirements2.txt
+  ```
+  
+ 
+  
+  Step 4:
+  ``` 
+  cd to the GitHub Repo till src folder
+  ```
+  Command may look like: `cd C:\Users\.....\Leap-Motion-Based-Virtual-Mouse\src`
+  
+  Step 5:
+  
+  For running Voice Assistant:
+  ```bash 
+  python Proton.py
+  ```
+  ( You can enable Gesture Recognition by using the command "Siri Launch Gesture Recognition" )
+  
+  Or to run only Gesture Recognition without the voice assistant:
+  
+  Uncomment last 2 lines of Code in the file `Gesture_Controller.py`
+  ```bash 
+  python Gesture_Controller.py
+  ```
+  
+
+
